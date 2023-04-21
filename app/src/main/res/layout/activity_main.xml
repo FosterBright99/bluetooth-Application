@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity2">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#FFFFFF">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="16dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Name"
+                android:textSize="18sp"
+                android:textColor="#000000" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#F3F3F3"
+                android:textColor="#000000"
+                android:padding="10dp"
+                android:backgroundTint="#F3F3F3"
+                android:outlineSpotShadowColor="#1E90FF"
+                android:outlineAmbientShadowColor="#1E90FF"
+                android:clipToOutline="true"
+                android:cornerRadii="20dp, 20dp, 20dp, 20dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Email"
+                android:textSize="18sp"
+                android:textColor="#000000" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#F3F3F3"
+                android:textColor="#000000"
+                android:padding="10dp"
+                android:backgroundTint="#F3F3F3"
+                android:outlineSpotShadowColor="#1E90FF"
+                android:outlineAmbientShadowColor="#1E90FF"
+                android:clipToOutline="true"
+                android:cornerRadii="20dp, 20dp, 20dp, 20dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Year Of Study"
+                android:textSize="18sp"
+                android:textColor="#000000" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#F3F3F3"
+                android:textColor="#000000"
+                android:inputType="textPassword"
+                android:padding="10dp"
+                android:backgroundTint="#F3F3F3"
+                android:outlineSpotShadowColor="#1E90FF"
+                android:outlineAmbientShadowColor="#1E90FF"
+                android:clipToOutline="true"
+                android:cornerRadii="20dp, 20dp, 20dp, 20dp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Program Of Study"
+                android:textSize="18sp"
+                android:textColor="#000000" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#F3F3F3"
+                android:textColor="#000000"
+                android:inputType="textPassword"
+                android:padding="10dp"
+                android:backgroundTint="#F3F3F3"
+                android:outlineSpotShadowColor="#1E90FF"
+                android:outlineAmbientShadowColor="#1E90FF"
+                android:clipToOutline="true"
+                android:cornerRadii="20dp, 20dp, 20dp, 20dp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Student ID"
+                android:textSize="18sp"
+                android:textColor="#000000" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#F3F3F3"
+                android:textColor="#000000"
+                android:inputType="textPassword"
+                android:padding="10dp"
+                android:backgroundTint="#F3F3F3"
+                android:outlineSpotShadowColor="#1E90FF"
+                android:outlineAmbientShadowColor="#1E90FF"
+                android:clipToOutline="true"
+                android:cornerRadii="20dp, 20dp, 20dp, 20dp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Year Of Birth"
+                android:textSize="18sp"
+                android:textColor="#000000" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#F3F3F3"
+                android:textColor="#000000"
+                android:inputType="textPassword"
+                android:padding="10dp"
+                android:backgroundTint="#F3F3F3"
+                android:outlineSpotShadowColor="#1E90FF"
+                android:outlineAmbientShadowColor="#1E90FF"
+                android:clipToOutline="true"
+                android:cornerRadii="20dp, 20dp, 20dp, 20dp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="School"
+                android:textSize="18sp"
+                android:textColor="#000000" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#F3F3F3"
+                android:textColor="#000000"
+                android:inputType="textPassword"
+                android:padding="10dp"
+                android:backgroundTint="#F3F3F3"
+                android:outlineSpotShadowColor="#1E90FF"
+                android:outlineAmbientShadowColor="#1E90FF"
+                android:clipToOutline="true"
+                android:cornerRadii="20dp, 20dp, 20dp, 20dp" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Register"
+                android:textColor="#FFFFFF"
+                android:background="#1E90FF"
+                android:layout_marginTop="16dp"
+                android:padding="16dp"
+                android:rippleColor="#FFFFFF"
+                android:outlineSpotShadowColor="#1E90FF"
+                android:outlineAmbientShadowColor="#1E90FF"
+                android:clipToOutline="true"
+                android:cornerRadii="20dp, 20dp, 20dp, 20dp" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+
+</RelativeLayout>
